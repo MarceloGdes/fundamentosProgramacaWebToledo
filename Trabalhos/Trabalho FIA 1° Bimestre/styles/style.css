@@ -2,6 +2,7 @@ body {
     font-family: arial;
     margin: 0;
     padding: 0;
+    background-color: darkslategrey;
 }
 
 /* Nav Bar */
@@ -98,13 +99,13 @@ nav {
 /* Fim tabela geral */
 
 /* Tabela etapas por piloto */
-.etapas-container, .etapas-equipes-container {
+.etapas-container, .etapas-equipes-container, .other-tables-container {
     width: 85%;
     margin: 70px auto;
 }
 
 
-.etapas-table, .etapas-equipes-table {
+.etapas-table, .etapas-equipes-table, #pts-sistem-table, #pilotos-eq-table {
     border: 1px solid black;
     display: table;
     margin: 0 auto;
@@ -180,6 +181,8 @@ nav {
 }
 
 /*Final geral por equipe*/
+
+/*Etapas por equipe*/
 .td-logo-equipes-etapas {
     text-align: center;
     width: 30%;
@@ -204,3 +207,44 @@ nav {
 #pts-colum {
     width: 30%;
 }
+
+/*Final Etapas por equipe*/
+
+/* Outras tabelas */
+
+#pts-sistem-table, #pilotos-eq-table {
+    width: 80%;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.pts-sistem-title-row {
+    font-weight: bold;
+    
+}
+
+.pts-sistem-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    height: 1.5em;
+}
+
+.pts-sistem-row:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+.piloto-eq-title-table-row {
+    font-weight: bold;
+    font-size: 1.2em;
+    height: 1.5em;
+}
+
+.piloto-eq-table-row:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+.piloto-eq-table-row {
+    height: 1.5em;
+}
+
+
