@@ -5,8 +5,8 @@ let surnameInput = document.querySelector("#surname");
 let buttom = document.querySelector("#btm");
 
 function transformTitle() {
-    let newName = nameInput.value;
-    let newSurname = surnameInput.value;
+    let newName = String(nameInput.value)
+    let newSurname = String(surnameInput.value)
     completeNameTitle.textContent = newName + ' ' + newSurname;
 }
 
