@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/global.css" type="text/css">
+    <title>Calculadora de distancia entre dois pontos no plano cartesiano</title>
+</head>
+<body>
+ <div class="container" >
+    <h1 class="text-center mb-5">Calculadora de distancia entre dois pontos no plano cartesiano</h1>
+    <div class="form col-md-6">
+        <div class="mb-3">
+            <label for="pontoA" class="form-label fs-4">Ponto A</label>
+            <input type="number" name="pontoA" id="pontoAXInput" class="form-control" placeholder="Insira X">
+            <input type="number" name="pontoA" id="pontoAYInput" class="form-control" placeholder="Insira Y">
+            <div class="form-text">Insira os dados do ponto A(x, y)</div>
+
+            <label for="pontoB" class="form-label fs-4">Ponto B</label>
+            <input type="number" name="pontoB" id="pontoBXInput" class="form-control" placeholder="Insira X">
+            <input type="number" name="pontoB" id="pontoBYInput" class="form-control" placeholder="Insira Y">
+            <div class="form-text">Insira os dados do ponto B(x, y)</div>
+            
+            
+        </div>
+    
+        <button id='btn' class="btn col-md-12">Calcular distância</button>
+        
+        <div id="resultContainer"></div>
+    </div>
+    
+ </div>
+</body>
+<script src="../scripts/calcDistPlanoCart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</html>
