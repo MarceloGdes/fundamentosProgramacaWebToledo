@@ -1,0 +1,88 @@
+div {
+    width: 200px;
+    height: 300px;
+}
+
+.divSticky {
+    background-color: aqua;
+
+    /* tipo de posição do elemento posição do elemento, sticky deixa o elemento fixo após ele sair da janeal de visualização e se tornar fixed */
+    position: sticky; 
+
+    /* possicionando o elemento */
+    top: 1px;
+    left: 400px;
+
+
+}
+
+.divRelative { 
+    /* Relative segue a rolagem */
+    background-color: blue;
+    position: relative;
+    top: 120px;
+    left: 300px;   
+}
+
+.divFixed {
+    /*Elemento fica fixado na area de visualização e não segue o flow da rolagem*/
+    position: fixed;
+    background-color: chocolate;
+    top: 100px;
+    left: 200px;
+}
+
+.divStatic {
+    /*padrão HTML*/
+    background-color: purple;
+    position: static;
+    top: 300px;
+    left: 300px;
+}
+
+.divAbsolute {
+    /*Elemento fica absoluto aos outros elementos filho da div*/
+    background-color: green;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+}
+
+.divAlignCenter {
+    background-color: brown;
+    margin: 0 auto;
+}
+
+.divAlignLeft {
+    background-color: darkgreen;
+    float: left;
+}
+
+.divAlignRight {
+    background-color: orange;
+    float: right;
+}
+.divMenu {
+    background-color: cornflowerblue;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    width: 100%
+}
+
+.logoUnipar {
+    height: 40px;
+    margin: 5px;
+}
+
+.menuTitle {
+    position: fixed;
+    top: 15px;
+    left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: auto;
+
+
+}
