@@ -1,0 +1,46 @@
+table {
+    margin: 0 auto;
+    width: 600px;
+    font-family: 'Arial';
+    font-size: 12px;
+    background-color: #C7E7F3;
+}
+
+#table-main-title {
+    background-color: #0D5188;
+    color: white;
+}
+
+.position-colum-th, .city-colum-th, .pop-colum-th {
+    background-color: #66c5e3;
+    font-weight: bold;
+}
+
+.position-colum-th {
+    width: 10%;
+}
+
+.pop-colum-th {
+    width: 15%;
+}
+
+.city-colum-th {
+    text-align: left;
+}
+
+.position-td {
+    background-color: silver;
+    text-align: center;
+}
+
+.city-td {
+    font-weight: bold;
+    color: #0d5188;
+    background-color: #C7E7F3;
+}
+
+.pop-td {
+    background-color: #C7E7F3;
+    text-align: center;
+}
+
